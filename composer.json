@@ -1,0 +1,19 @@
+{
+    "name": "aperturelabo/core-bundle",
+    "description": "Common resources for Aperture Laboratories",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ApertureLabo\\CoreBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ApertureLabo\\CoreBundle\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "symfony/framework-bundle": "^5.0 || ^6.0"
+    }
+}
