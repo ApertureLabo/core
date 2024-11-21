@@ -4,7 +4,7 @@ namespace ApertureLabo\CoreBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class CoreBundle extends Bundle
+class ApertureLaboCoreBundle extends Bundle
 {
     public function getPath(): string
     {
