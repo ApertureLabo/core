@@ -1,0 +1,3 @@
+services:
+    AppertureLabo\CoreBundle\Command\CacheClearCommande:
+        tags: ['console.command']
