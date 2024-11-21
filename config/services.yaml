@@ -1,3 +1,4 @@
 services:
-    AppertureLabo\CoreBundle\Command\CacheClearCommande:
-        tags: ['console.command']
+    _defaults:
+        autowire: true
+        autoconfigure: true
