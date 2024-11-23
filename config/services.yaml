@@ -2,7 +2,3 @@ services:
     _defaults:
         autowire: true
         autoconfigure: true
-
-    App\Twig\CoreConstantsExtension:
-        tags:
-            - { name: twig.extension }
