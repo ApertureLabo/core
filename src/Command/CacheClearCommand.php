@@ -12,7 +12,7 @@ use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Style\SymfonyStyle;
 
 #[AsCommand(
-    name: 'core:cache-clear',
+    name: 'app:core-cache-clear',
     description: 'Clear and warmup the application cache using the umask() function',
 )]
 class CacheClearCommand extends Command
