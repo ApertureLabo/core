@@ -13,7 +13,7 @@ use Symfony\Component\Yaml\Yaml;
  */
 class ImageConfiguration{
 
-    private const YAML_CONFIGURATION_PATH = 'config/packages/core_bundle.yaml';
+    private const YAML_CONFIGURATION_PATH = 'config/aperture_core/core_bundle.yaml';
 
     private const DEFAULT_FILE_HASH_ALGORITHM = 'sha256';
 
