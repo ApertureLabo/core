@@ -21,18 +21,13 @@ class ImageService extends ImageServiceProcessor{
 
     private EntityManagerInterface $entityManager;
     private ImageConfiguration $imageConfiguration;
-    
-    private string $project_dir;
-    private array $image_configuration;
 
     public function __construct(EntityManagerInterface $entityManager,
         KernelInterface $kernel,
         ImageConfiguration $imageConfiguration)
     {
         $this->entityManager = $entityManager;
-
         $this->project_dir = $kernel->getProjectDir().'/';
-
         $this->imageConfiguration = $imageConfiguration;
     }
 
